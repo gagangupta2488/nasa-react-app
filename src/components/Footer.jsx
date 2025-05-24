@@ -7,11 +7,12 @@ const {showModal,handleToogleModal}=props
                 <h2>The Brutal Martain Landscape</h2>
                 <h1>APOD PROJECT</h1>
             </div>
-            <button onClick={
-              handleToogleModal  
-            }>
+            <button onClick={handleToogleModal}>
                 <i className="fa-solid fa-circle-info"></i>
             </button>
+
+
+            
         </footer>
     )
 } 
